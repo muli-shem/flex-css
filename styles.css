@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+    font-family: "Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-variation-settings: "slnt"0;
+}
+.container{
+    padding: 1rem;
+    height: fit-content;
+    width: 70%;
+}
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-basis: 30%;
+    flex-shrink: 0;
+    padding: 10px;
+    
+}
+#section3{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-grow: 1;
+    padding:20px;
+    margin:0;
+    flex-basis: 0;
+    
+
+}
+#section3>div{
+    display: flex;
+    justify-content: ;
+}
+#links{
+   margin-left:67%;
+   padding-left: px;
+   
+
+
+}
+#links>a{
+    margin: 20px;
+}
+#image1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#H{
+    font-size: 35px;
+
+}
+#description{
+    width: 50%;
+    margin: 0 1.5rem;
+}
+pic1{
+    display:block ;
+    width: 100%;
+    height: auto;
+    padding: 2rem 
+}*/
+/*#item1{
+    align-content: right;
+    text-align: left;
+    display:flex;
+    flex-direction:column;
+
+
+}
+#item2{
+    
+    align-content: right;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+}*/
+.item3{
+    margin-right:0;
+    flex-grow: 1;
+
+
+}
+h4{
+    color: rgb(174, 161, 161);
+    font-size: 50px;
+}
+h3{
+    color: black;
+    font-size :30px;
+}
+h2{
+    color: white;
+    font-size :30px;
+}
+h1{
+    color: bisque;
+    font-size: 30px;
+}
+#Text{
+background-color: rgb(46, 39, 39);
+color:white;
+font-size: 20px;
+padding: 20px;
+}
+/*
+#class1{
+    display:flex;
+    flex-direction:column;
+}
+#class2{
+    display:flex;
+    flex-direction:column;
+}
+#class3{
+    display:flex;
+    flex-direction:column;
+
+}  
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#section2, #section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#section3 {
+    flex-wrap: wrap;
+}
+
+#section3 > div {
+    flex: 1 1 calc(33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#section3 > div:last-child {
+    margin-right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    #section2 > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section3 > div {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    #section2 > div {
+        margin-bottom: 20px;
+    }
+
+    #section3 > div {
+        flex: 1 1 calc(100% - 20px); 
+    }
+}
+*/
